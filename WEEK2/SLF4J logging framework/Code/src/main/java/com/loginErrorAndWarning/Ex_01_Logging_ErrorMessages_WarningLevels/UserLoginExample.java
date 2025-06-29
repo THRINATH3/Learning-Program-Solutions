@@ -20,10 +20,10 @@ public class UserLoginExample {
         String ePassword = scanner.nextLine();
 
         if (eUsername.equals(username) && ePassword.equals(password)) {
-            logger.info("User  logged in successfully.", eUsername);
+            logger.info("User  logged in successfully.");
             System.out.println("Login successful.");
         } else {
-            logger.warn("Failed login attempt for user.", eUsername);
+            logger.warn("Failed login attempt for user.");
             System.out.println("Invalid username or password.");
         }
 
