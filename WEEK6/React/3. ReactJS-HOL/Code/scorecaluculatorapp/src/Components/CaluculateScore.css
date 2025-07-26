@@ -1,0 +1,26 @@
+.container{
+    margin: 200px;
+    border: 10px solid darkgreen;
+    padding: 50px;
+    margin-left:500px;
+    margin-right: 500px;
+    border-radius: 50px;
+    color: white;
+    background-color: lightgreen;  
+}
+
+.name{
+    color: blue;
+}
+
+.school{
+    color: red;
+}
+
+.total{
+    color: darkmagenta;
+}
+
+.score{
+    color: forestgreen;
+}
