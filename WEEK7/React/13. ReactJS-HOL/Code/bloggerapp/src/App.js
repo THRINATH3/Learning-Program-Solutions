@@ -6,14 +6,14 @@ import './App.css'
 
 function App() {
   return (
-    <div style={{display:'flex',columnGap:'100px',padding:'50px',justifyContent:'center'}}>
+    <div style={{display:'flex',columnGap:'100px',padding:'50px',justifyContent:'center',marginTop:'100px'}}>
       <div className='border'>
         <CourseDetails />
       </div>
       <div className='border'>
         <BookDetails />
       </div>
-      <div className='border'>
+      <div>
           <BlogDetails />
       </div>
     </div>

@@ -6,7 +6,7 @@ function CourseDetails() {
       <h1>CourseDetails</h1>
       {course.map((courseDetail)=>(
         <div>
-          <h2>{courseDetail.name}</h2>
+          <h1>{courseDetail.name}</h1>
           <h4>{courseDetail.date}</h4>
         </div>
       ))}

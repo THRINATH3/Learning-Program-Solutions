@@ -6,7 +6,7 @@ function BlogDetails() {
       <h1>BlogDetails</h1>
        {blog.map((blogDetail)=>(
          <div>
-           <h2>{blogDetail.name}</h2>
+           <h1>{blogDetail.name}</h1>
            <h4>{blogDetail.author}</h4>
            <p>{blogDetail.des}</p>
          </div>
